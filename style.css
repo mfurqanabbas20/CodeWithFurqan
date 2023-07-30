@@ -218,10 +218,10 @@ hr {
     margin-block: 10px;
     padding: 20px;
     font-family: 'Poppins', sans-serif;
+    height: 280px;
 }
 .card-common:hover {
     box-shadow: 2px 2px 20px 6px rgb(220, 93, 255);
-    
 }
 /* Furqan */
 .furqan {
@@ -269,9 +269,7 @@ hr {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    background-color: #f0f0f0;
     padding-block: 17px;
-    border-top: 1px solid rgb(244, 154, 106);
 }
 .form-questions>.form-header h3{
     font-family: Open Sans, sans-serif;
@@ -281,7 +279,7 @@ hr {
     border: 1px solid rgb(226, 226, 226);
     width: 250px;
     height: 30px;
-    box-shadow: 1px 4px 4px 5px lightblue;
+    box-shadow: 1px 2px 3px 2px lightblue;
 }
 .first-name, .last-name, .question label {
     font-size: 1.1rem;
@@ -334,12 +332,17 @@ hr {
     font-size: 1rem;
 }
 .accordian-container {
-    background-color: #f0f0f0;
-    padding-block: 20px;
+    
+    background-size: cover;
+    padding-block: 15px;
+}
+.background-container {
+    background-image: url('images/background-2.jpg');
+    background-size: cover;
 }
 .accordian {
     margin-top: 5px;
-    background-color: #f0f0f0;
+    background-color: transparent;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.1rem;
     padding: 17px 15px;
