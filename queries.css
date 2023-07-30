@@ -1,0 +1,119 @@
+@media only screen and (max-width: 1068px) {
+    .main-hero {
+        justify-content: center;
+    }
+    .main-icon { 
+
+    }
+    .hero-img {
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .yt-btn {
+        display: none;
+    }
+    .nav-items {
+        padding-right: 5px;
+    }
+}
+@media only screen and (max-width: 558px) {
+   .nav-items {
+     margin-right: 4px;
+   }
+   .nav-items ul {
+    justify-content: center;
+   }
+   .main-hero {
+    justify-content: center;
+   }
+   .hero-content h2 {
+    text-align: center;
+    font-size: 3rem;
+   }
+   .hero-content p {
+    text-align: center;
+   }
+   .footer-small p { 
+    text-align: center;
+   }
+}
+
+@media only screen and (max-width: 468px) {
+    .main-nav {
+        justify-content: center;
+        width: 100%;
+    }
+    .nav-items ul {
+        justify-content: center;
+    }
+    .logo {
+        text-align: center;
+    }
+    .main-icons {
+        font-size: 2.5rem;
+    }
+    .learn-btn {
+        margin-left: 35%;
+        width: 100px;
+        height: 30px;
+        font-size: 0.85rem;
+    }
+    .hero-content {
+        margin-top: 30px;
+    }
+    .nav-items li {
+        padding-bottom: 20px;
+    }
+    .hero-content h2 {
+        font-size: 2rem;
+    }
+    .hero-content p {
+        font-size: 1rem;
+    }
+    .hero-img img {
+        max-width: 260px;
+
+    }
+    .furqan-image{
+        height: 200px;
+    }
+    .why {
+        font-size: 0.7rem;
+    }
+    .faqs {
+        font-size: 1.1rem;
+    }
+    .answer p {
+        font-size: 1rem;
+    }
+    .question-accordian h3 {
+        font-size: 1rem;
+    }
+    .form-questions>.form-header h3 {
+        font-size: 1.4rem;
+    }
+    .first-name, .last-name, .question label  {
+        font-size: 0.9rem;
+    }
+    .submit {
+        margin-top: 10px;
+    }
+
+    .follow {
+        font-size: 1.3rem;
+    }
+    .footer-main, .footer-small {
+        font-size: 0.7rem;
+    }
+    .main-nav ul{
+        gap: 15px;
+    }
+    .main-nav ul li a {
+        font-size: 0.9rem;
+    }
+    .card-common {
+        font-size: 0.8rem;
+    }
+
+}
