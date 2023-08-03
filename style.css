@@ -202,6 +202,11 @@ hr {
     align-items: center;
     padding: 20px;
 }
+
+.cards-main {
+    background-image: url('images/32070416_fd6.jpg');
+    background-size:cover;
+}
 .cards i {
     font-size: 4rem;
     color: rgb(0, 20, 118);
@@ -213,15 +218,20 @@ hr {
     text-align: center;
     font-size: 1rem;
     line-height: 1.3rem;
-    box-shadow: 1px 4px 5px 5px rgb(255, 211, 211);
+    /* box-shadow: 1px 4px 5px 5px rgb(255, 211, 211); */
+    border-radius: 10px;
     width: 350px;
     margin-block: 10px;
     padding: 20px;
     font-family: 'Poppins', sans-serif;
     height: 280px;
+    /* border: 1px solid rgb(124, 135, 206); */
+    transition: 0.3s ease-in;
+    cursor: pointer;
 }
 .card-common:hover {
-    box-shadow: 2px 2px 20px 6px rgb(220, 93, 255);
+    box-shadow: 8px 8px 20px 10px rgb(228, 200, 236);
+    border-radius: 20px;
 }
 /* Furqan */
 .furqan {
