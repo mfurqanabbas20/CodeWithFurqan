@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1068px) {
+@media (max-width: 1068px) {
     .main-hero {
         justify-content: center;
     }
@@ -6,15 +6,52 @@
         margin-top: 10px;
     }
 }
-@media only screen and (max-width: 600px) {
+@media (max-width: 756px) {
+    .yt-btn {
+        display: none;
+    }
+    .nav-items {
+        padding-right: 10px;
+    }
+}
+@media only screen and ((min-height: 430px) and (max-width: 468px)) {
+    .furqan-name {
+        margin-top: 170px;
+    }
+}
+
+@media (max-width: 619px) {
+    .nav-items {
+        display: none;
+    }
+    .hamburger {
+        display: inline;
+    }
+    .main-nav {
+        justify-content: space-between;
+        align-items: space-between;
+        gap: 2px;
+        padding-right: 10px;
+    }
+    .logo {
+        text-align: start;
+    }
+}
+@media (min-width: 0px) {
+    .hamburger-menu {
+        display: none;
+    }
+}
+@media (max-width: 600px) {
     .yt-btn {
         display: none;
     }
     .nav-items {
         padding-right: 5px;
     }
+
 }
-@media only screen and (max-width: 558px) {
+@media (max-width: 558px) {
    .nav-items {
      margin-right: 4px;
    }
@@ -34,29 +71,26 @@
    .footer-small p { 
     text-align: center;
    }
-   .follow {
-    font-size: 1.3rem;
-   }
-   .footer-main {
-    font-size: 1rem;
-   }
+   .furqan-image{
+     width: 69%;
+     height: 50px;
 }
-@media only screen and ((min-height: 430px) and (max-width: 468px)) {
-    .furqan-name {
-        margin-top: 170px;
-    }
 }
-@media only screen and (max-width: 468px) {
+
+@media (max-width: 468px) {
     .main-nav {
-        justify-content: center;
+        justify-content: space-between;
         width: 100%;
+        padding-right: 10px;
     }
     .nav-items ul {
         justify-content: center;
     }
-    .logo {
+    .logo .codewithfurqan{
         text-align: center;
+        font-size: 1.3rem;
     }
+
     .main-icons {
         font-size: 2.5rem;
     }
@@ -64,7 +98,7 @@
         margin-left: 35%;
         width: 100px;
         height: 30px;
-        font-size: 0.85rem;
+        font-size: 0.80rem;
     }
     .hero-content {
         margin-top: 30px;
@@ -73,8 +107,9 @@
         padding-bottom: 20px;
     }
     .hero-content h2 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
+
     .hero-content p {
         font-size: 1rem;
     }
@@ -82,19 +117,8 @@
         max-width: 260px;
 
     }
-    .furqan-image{
-        height: 200px;
-    }
-    .furqan-name {
-        font-size: 1rem;
-    }
-
-    .why-h2 {
-        font-size: 0.6rem;
-    }
-    .why-h1 {
+    .why {
         font-size: 0.7rem;
-        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     .faqs {
         font-size: 1.1rem;
@@ -129,6 +153,9 @@
     }
     .card-common {
         font-size: 0.8rem;
+    }
+    .hero-content h2 {
+        font-size: 1.7rem;
     }
 
 }

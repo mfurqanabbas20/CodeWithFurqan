@@ -13,3 +13,17 @@ accordian.forEach(accordian => {
         }
     })
 })
+let counter = 0;
+const hamburger = document.getElementById('hamburger');
+const hamburger_menu = document.getElementById('hamburger-menu');
+hamburger.addEventListener('click', () => {
+    counter++;
+    if(counter % 2 != 0) {
+        hamburger_menu.style.display = 'flex';   
+    }
+    else {
+        hamburger_menu.style.display = 'none';
+    }
+    console.log('clicked')
+
+});

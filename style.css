@@ -76,6 +76,33 @@ html {
     outline: 2px solid rgb(159, 128, 232);
     outline-offset: 3px;
 }
+.hamburger {
+    display: none;
+    font-size: 1.4rem;
+    color:rgb(36, 20, 62);
+    
+}
+.hamburger-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    background-color: rgb(188, 160, 243);
+    height: 87vh;
+}
+.hamburger-menu li {
+    list-style-type: none;
+}
+.hamburger-menu li:hover {
+    color:rgb(0, 20, 118);
+}
+.hamburger-menu li a{
+    text-decoration: none;
+}
+
 
 /* Hero Section */
 .main-hero {
@@ -95,6 +122,11 @@ html {
     justify-content: center;
     font-size: 4rem;
 }
+.codewithfurqan {
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(0, 20, 118);
+}
 .hero-content {
     margin-top: 100px;
 }
@@ -104,12 +136,13 @@ html {
     font-size: 4rem;
 }
 .hero-content h2:after {
-    content: " Furqan";
+    content: " FURQAN";
     color:rgb(133, 11, 255);
+    filter:drop-shadow(7px 7px 2.5px rgb(69, 153, 237));
 }
 
 .hero-content p {
-    font-family: Roboto, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.3rem;
     margin-top: 10px;
 }
@@ -258,11 +291,12 @@ hr {
 }
 .furqan-image {
     width: 50vh;
-    height: 300px;
+    height: 290px;
 }
 .furqan-name h3 {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-family: 'Poppins', sans-serif;
     text-align: center;
+    filter: blur(1px);
 }
 .furqan-name p {
     text-align: center;
