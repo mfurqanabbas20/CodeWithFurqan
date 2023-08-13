@@ -1,6 +1,6 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Edu+SA+Beginner:wght@600&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans&family=Poppins:wght@500&family=Roboto:wght@300;400;500;700&family=Titillium+Web&display=swap');
-html {
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Edu+SA+Beginner:wght@600&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans&family=Overpass&family=Poppins:wght@500&family=Roboto:wght@300;400;500;700&family=Tilt+Prism&family=Titillium+Web&display=swap');
+  html {
     scroll-behavior: smooth;
 }
   * {
@@ -46,7 +46,7 @@ html {
 }
 .nav-items li {
     list-style-type: none;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
 }
 .nav-items a {
     text-decoration: none;
@@ -90,7 +90,7 @@ html {
     gap: 40px;
     font-family: 'Roboto', sans-serif;
     font-size: 1.3rem;
-    background-color: rgb(188, 160, 243);
+    background-color: paleturquoise;
     height: 87vh;
 }
 .hamburger-menu li {
@@ -132,17 +132,19 @@ html {
 }
 .hero-content h2 {
     text-shadow: #ece9ef;
-    font-family: 'Roboto', cursive;
+    font-family: 'Poppins', sans-serif;
     font-size: 4rem;
+    text-transform:uppercase;
+    color:rgb(116, 29, 237);
 }
 .hero-content h2:after {
     content: " FURQAN";
-    color:rgb(133, 11, 255);
-    filter:drop-shadow(7px 7px 2.5px rgb(69, 153, 237));
+    color:rgb(53, 8, 99);
+    filter:drop-shadow(7px 7px 2.5px rgb(71, 152, 233));
 }
 
 .hero-content p {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 1.3rem;
     margin-top: 10px;
 }
@@ -198,6 +200,7 @@ hr {
     align-items: center;
     justify-content: center;
     background-color: #261a38;
+    padding-bottom: 10px;
 }
 
 .why-h2 {
@@ -216,6 +219,15 @@ hr {
     font-size: 4rem;
     color: red;
     padding-bottom: 20px;
+}
+.hashtag {
+    font-size: 3.5rem;
+    color:rgba(250, 189, 20, 0.95);
+    font-family: 'Caveat', cursive;
+}
+.do-it {
+    color:rgb(255, 186, 39);
+    font-family: 'Caveat', cursive;
 }
 .notch {
     padding-top: 20px;
@@ -286,21 +298,24 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
     font-size: 2rem;
 }
 .furqan-image {
     width: 50vh;
-    height: 290px;
+    height: 300px;
+    /* filter: drop-shadow(5px 5px 5px rgb(222, 165, 222)); */
 }
 .furqan-name h3 {
-   font-family: 'Poppins', sans-serif;
+    font-family: 'Caveat', cursive;
+    font-size: 1.7rem;
     text-align: center;
-    filter: blur(1px);
+    margin-top: 8px;
 }
 .furqan-name p {
     text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Caveat', cursive;
+    font-size: 1.1rem;
 }
 .furqan-image img {
     width: 100%;

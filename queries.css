@@ -13,10 +13,16 @@
     .nav-items {
         padding-right: 10px;
     }
+    .hashtag {
+        font-size: 1.9rem;
+    }
+    .do-it{
+        font-size: 2rem;
+    }
 }
 @media only screen and ((min-height: 430px) and (max-width: 468px)) {
     .furqan-name {
-        margin-top: 170px;
+        margin-top: 180px;
     }
 }
 
