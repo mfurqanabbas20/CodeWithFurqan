@@ -182,7 +182,7 @@
     font-size: 2rem;
     color:rgb(79, 5, 41);
     padding: 30px;
-    background-color: rgb(196, 193, 189);
+    background: linear-gradient(rgb(41, 158, 173), rgb(15, 131, 181), rgb(67, 159, 212));
 }
 hr {
     border-top: 4px solid rgb(79, 5, 41);
